@@ -4,45 +4,49 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>Brown Stone Test</title>
   <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="css/customGrid.css" type="text/css" media="screen">
  <!-- <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
   <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>-->
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 </head>
 <body>
   <header>
-    <div id = "spunText">
+    <div id = "spunText" class="col-2-3">
       <p>We Love</p> 
       <p>HTML+CSS</p>
     </div>
-    <div id="rightHeaderParagraphs">
-      <div id= "upperParagraph">
+    <div id="rightHeaderParagraphs" class="col-1-3">
+      <article id= "upperParagraph">
         <p>Want to join a world-class team? Show us what you've got by completeing this small exercise</p>
-      </div>
-      <div id = "lowerParagraph">
+      </article>
+      <article id = "lowerParagraph">
         <p>Hand-code valid HTML5 markup and CSS from scratch (no boilerplates!) to reproduce this design for all modern broswers, as well as IE8. Commnet your code to explain your work, as necessary.</p>
-      </div>
+      </article>
     </div>
   </header>
-
-  <div id = "lowerContainer">
-    <div id = "leftColumn">
-      <h1>What is semantic HTML?</h1>
-      <p>akjfkasdkfalkdffakdsfkajdfksdfkadfsdf </p>
-      <h1>What is accssibility?</h1>
-      <p>asdjfalskasfdkafkjakfasjksakjkjasajkajkhajkasjkhask</p>
+  
+  <main>
+    <div id = "leftColumn" class="col-1-2">
+      <article>
+        <h1>What is semantic HTML?</h1>
+        <p>akjfkasdkfalkdffakdsfkajdfksdfkadfsdf </p>
+        <h1>What is accssibility?</h1>
+        <p>asdjfalskasfdkafkjakfasjksakjkjasajkajkhajkasjkhask</p>
+      </article>
     </div>
-    <div id = "rightColumn">
-      <h1>What is progressive enhancement</h1>
-      <p>jajadkjadjkadjkskasdkfakdfadfadkjfkjadfa</p>
-      <form action="demo_form.asp">
-          Name <input type="text" name="Name" value="Text"><br>
-          Email <input type="text" name="Email" value="Text"><br>
-          Comments <input rows="5" cols="50"type="text" name="Comments" value="Text"><br>
-          <input type="submit" value="Submit">
-      </form>
-
+    <div id = "rightColumn" class="col-1-2">
+      <article>
+        <h1>What is progressive enhancement</h1>
+        <p>jajadkjadjkadjkskasdkfakdfadfadkjfkjadfa</p>
+      </article>
+        <form action="demo_form.asp">
+            Name <input type="text" name="Name" value="Text"><br>
+            Email <input type="text" name="Email" value="Text"><br>
+            Comments <input rows="5" cols="50"type="text" name="Comments" value="Text"><br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
-  </div>
+  </main>
 
 
 <!--  <div class="container clearfix">
