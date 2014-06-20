@@ -5,108 +5,48 @@
   <title>Brown Stone Test</title>
   <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/customGrid.css" type="text/css" media="screen">
- <!-- <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-  <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>-->
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 </head>
 <body>
-  <header>
-    <div id = "spunText" class="col-2-3">
-      <p>We Love</p> 
-      <p>HTML+CSS</p>
-    </div>
-    <div id="rightHeaderParagraphs" class="col-1-3">
-      <article id= "upperParagraph">
-        <p>Want to join a world-class team? Show us what you've got by completeing this small exercise</p>
-      </article>
-      <article id = "lowerParagraph">
-        <p>Hand-code valid HTML5 markup and CSS from scratch (no boilerplates!) to reproduce this design for all modern broswers, as well as IE8. Commnet your code to explain your work, as necessary.</p>
-      </article>
-    </div>
-  </header>
-  
-  <main>
-    <div id = "leftColumn" class="col-1-2">
-      <article>
-        <h1>What is semantic HTML?</h1>
-        <p>akjfkasdkfalkdffakdsfkajdfksdfkadfsdf </p>
-        <h1>What is accssibility?</h1>
-        <p>asdjfalskasfdkafkjakfasjksakjkjasajkajkhajkasjkhask</p>
-      </article>
-    </div>
-    <div id = "rightColumn" class="col-1-2">
-      <article>
-        <h1>What is progressive enhancement</h1>
-        <p>jajadkjadjkadjkskasdkfakdfadfadkjfkjadfa</p>
-      </article>
-        <form action="demo_form.asp">
-            Name <input type="text" name="Name" value="Text"><br>
-            Email <input type="text" name="Email" value="Text"><br>
-            Comments <input rows="5" cols="50"type="text" name="Comments" value="Text"><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-  </main>
-
-
-<!--  <div class="container clearfix">
-    <div class="grid_4">
-      <img src="img/logo.gif" alt="Smells Like Bakin">
-    </div>
-    <div class="grid_8 omega">
-      <ul class="nav">
-        <li><a href="about.html">HEY</a></li>
-        <li><a href="#">Cupcakes &amp; Prices</a></li>
-        <li><a href="#">Locations</a></li>
-        <li class="last"><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
-    <div id="intro" class="grid_9">
-      <h1>Opposites really do attract, especially in our kitchen! We combine unexpected flavors that melt together to create ironically delicious desserts.</h1>
-      <p><a href="#" class="btn" >Browse Our Cupcakes</a></p>
-    </div>
-    <div class="grid_3 omega">
-      <img src="img/you-bake-me-blush.gif" alt="You Bake Me Blush">
-    </div>
-
-    <div id="featured-cupcake" class="grid_7">
-      <h2>Cupcake of the Week</h2>
-      <p>This week’s featured cupcake is the <a href="#">Avocado Chocolate cupcake</a>. Its strange combo of flavors will kick your taste buds into fiesta mode!</p>
-      <img src="img/featured-cupcake.jpg" alt="Avocado Chocolate Cupcake">
-    </div>
-
-    <div id="new-cupcakes" class="grid_5 omega">
-      <h2>Fresh Out the Oven</h2>
-      <p>Our newest cupcakes are <a href="#">Bacon Me Crazy</a> and <a href="#">Jalapeño So Spicy</a>. </p>
-      <img src="img/new-cupcake-bacon.jpg" alt="Bacon Me Crazy">
-      <img src="img/new-cupcake-jalapeno.jpg" alt="Jalapeno So Spicy">
-    </div>
-
-
-    <div class="grid_7">
-      <h2>Inside the Kitchen</h2>
-      <p>Smells Like Bakin’ started out in the garage of the husband wife duo Allison &amp; Joseph. Allison is the baker, and Joseph found a way for them to make a business out of her tasty treats. Flash forward to today and they have a successful store front, catering business and cupcake truck. </p>
-      <p><a href="#" class="btn-small">Read More</a></p>
-    </div>
-
-    <div class="grid_5 omega">
-      <h2>Get Bakin' with Us</h2>
-
-      <div id="contact">
-        <p>Call us: <span>1-555-CUP-CAKE</span><br>
-        Email us: <a href="#">bakeon@smellslikebakin.com</a></p>
+  <div id="wrapper">
+    <header>
+      <div id = "spunText" class="col-1-2">
+        <p><strong>We Love</strong></p> 
+        <p>HTML+CSS</p>
       </div>
+      <div id="rightHeaderParagraphs" class="col-1-2">
+       <article id= "upperHeaderParagraph">
+          <p><strong>Want to join a world-class team?</strong> Show us what you've got by completeing this small exercise</p>
+        </article>
+        <article id = "lowerHeaderParagraph">
+          <p>Hand-code valid HTML5 markup and CSS from scratch (no boilerplates!) to reproduce this design for all modern broswers, as well as IE8. Commnet your code to explain your work, as necessary.</p>
+        </article>
+      </div>
+    </header>
+  
+    <main>
+     <div id = "leftColumn" class="col-1-2">
+        <article>
+         <h1>What is semantic HTML?</h1>
+         <p>Semantic tags clearly express the sections of the markup to other developers. For example div and span tags are very general but article, table, and img tags express more clearly the type of information listed</p>
+         <h1>What is accessibility?</h1>
+          <p>Accessibility is making the web more accessible to people with learning or physical disabilities.</p>
+       </article>
+      </div>
+      <div id = "rightColumn;" class="col-1-2" >
+        <article >
+         <h1>What is progressive enhancement?</h1>
+         <p>Progressive enhancement is about putting content as the first priority by making core content accessible on all web browsers and devices while simultaneously allowing  more bells and whistles to become visible for users with higher bandwidth and better technology.</p>
+        </article>
+          <form>
+             Name <input type="text"  name="Name" value="" class = "formInput"><br>
+             Email <input type="text" name="Email" value="" class="formInput"><br>
+             Comments <textarea rows="4" cols="20"type="text" name="Comments" value="" ></textarea><br>
+             <input type="submit" value="Submit" id = "button">
+         </form>
+     </div>
+   </main>
 
-
-      <p>We announce all of our new flavors first through Facebook &amp; Twitter, and even take requests!</p>
-      <a href="http://www.facebook.com/SmellsLikeBakin"><img src="img/facebook.gif" alt="Facebook"></a>
-      <a href="https://twitter.com/#!/smellslikebakin"><img src="img/twitter.gif" alt="Twitter"></a>
-    </div>
-
-    <div id="copyright" class="grid_12">
-      <p>&copy; 2012 Smells Like Bakin' Cupcake Company. All Rights Reserved.</p>
-    </div>
-
-  </div>-->
+  </div><!-- end of wrapper -->
 </body>
 </html>
